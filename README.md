@@ -174,14 +174,6 @@ Wiener's attack uses continued fraction convergents of `e/N` (or `d/N` depending
 
 ---
 
-## Testing
-
-Add unit tests in a `tests/` directory and include known vulnerable test vectors to automate verification. Example test scenarios:
-
-* Known small-`d` RSA keys where the code should recover `d` and factors.
-* Negative tests using strong RSA keys where the functions should return `None`.
-
----
 
 ## Contributing
 
